@@ -1,0 +1,73 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)), url(background.gpj);
+    background-size:cover;
+    background-position: center;
+}
+.booking-form-box{
+    max-width: 350px;
+    border:1px solid #121313;
+    margin: 10% auto 0;
+}
+.radio-btn{
+    margin: 20px;
+}
+.radio{
+    margin: 20px 10 px 20 px 0;
+    box-shadow: none;
+}
+.radio-btn .btn::after
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: rgb(237, 245, 245);
+    position: relative;
+    display: inline-block;
+    border:3px solid rgb(228, 236, 239);
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+    content: '';
+    background-color: #000;
+    transition: 0.5s;
+
+}
+.radio-btn span{
+    color:rgb(14, 13, 13);
+    margin-right: 5px;
+    font-size: 12px;
+
+}
+.booking-form label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(22, 20, 20) !important;
+}
+input::placeholder{
+    color:rgb(20, 19, 19) !important;
+}
+.input-grp{
+    width: 150px;
+    display: inline-block;
+}
+.form-control{
+    font-size: 12px !important;
+    border-radius:0 !important;
+    color:rgb(8, 8, 8) !important;
+    box-shadow: none !important;
+}
+.select-date::-webkit-inner-spin-button
+.select-date::-webkit-inner-spin-button
+{
+    -webkit-appearance:none;
+    margin:0;
+}
+.select-date::-webkit-calender-picket-indicator
+{
+    background-attachment: transparent !important;
+}

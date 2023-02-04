@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Anclas</title>
+    <link rel="stylesheet" href="./Lista de compras.css">
+</head>
+<body>
+    <h1>Práctica</h1> <!--Las tablas son un conjunto estructurado de datos compuesto por filas y columnas-->
+    <h2>Tabla de nombres</h2>
+    <table>
+    <tr> <!--Representa una fila-->
+        <th>Nombre</th> <!--Representa las celdas del encabezado-->
+<th>Apellido</th>
+<th>Edad</th>
+    </tr>
+    <tr>
+        <td>Pedro</td>
+        <td>Morales</td>
+<td>24</td>
+    </tr>
+</table>
+<br>
+
+<table>
+    <h2>Países</h2>
+    <colgroup span="4"></colgroup> <!--Para aplicar una propiedad a más de una columna no es necesario repetir la propiedad en cada elemento.  <col> Lo más sencillo es pallicarle el atributo span al primer elemento, este atributo funciona igual que rewnspan y colspan, es decir nos permite expandir la influencia de <col> al número de columnas que queramos.-->
+<tr>
+    <th>Countries</th>
+    <th>Capitals</th>
+<th>Population</th>
+<th>Lenguage</th>
+</tr>
+<tr>
+    <td>Washington D.C</td>
+    <td>USa</td>
+    <td>309 million</td>
+    <td>English</td>
+</tr>
+<tr>
+    <td>Sweden</td>
+    <td>Stockholm</td>
+    <td>9 million</td>
+    <td>Swedish</td>
+    
+</tr>
+<hr>
+</table>
+<hr>
+<h2>Tabla de jugadores</h2><!--<Caption> Representa el título descrptivo de una tabla-->
+
+<table>
+<tr>
+    <th>N°</th>
+    <th>Jugador</th>
+    <th>Equipo</th>
+<th>Goles</th>
+</tr>
+<tr>
+    <td>1</td>
+ <td>Marcelo Martines</td>
+<td>Bolivia</td>
+<td>10</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Neymar</td>
+<td>Brasil</td>
+<td>8</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>Lautaro Martinez</td>
+<td>Argentina</td>
+<td>7</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>Lionel Messi</td>
+    <td>Argentina</td>
+<td>7</td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>Michael Estrada</td>
+<td>Ecuador</td>
+<td>6</td>
+
+</tr>
+</table>
+
+    <thead>
+        
+    </thead>
+
+</body>
+</html>
